@@ -19,7 +19,7 @@
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.json("arf.json", function(error, flare) {
+    d3.json("osint.json", function(error, flare) {
         if (error) throw error;
             root = flare;
             root.x0 = height / 2;
